@@ -19,3 +19,10 @@ let $h1copy = document.querySelector('.h1copy')
 
 // Determine when the h1 is off the top of the window
   // A) Manually scroll, store the window.scrollY
+  // B) Calculate the position with variables
+
+// check if scrolled is less than where the bottom of the h1 is
+
+// ...else
+
+// Capture the scroll of the window
