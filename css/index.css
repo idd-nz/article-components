@@ -2,7 +2,7 @@ body {
   font: 1em helvetica, arial, sans-serif;
   background-color: #fff;
   color: #222;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .story {
@@ -10,11 +10,24 @@ body {
   margin: 1em 0;
 }
 
-.progress-bar {
-  background-color: limegreen;
+.bar {
+  background-color: #aaa;
   position: fixed;
   top: 0;
   left: 0;
-  height: 1em;
+  height: 2em;
+  width: 100%;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+.progress {
+  background-color: limegreen;
   width: 40%;
+  height: 100%;
+}
+.h1copy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 2;
+  padding-left: 1em;
 }
