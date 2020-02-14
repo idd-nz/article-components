@@ -2,40 +2,14 @@
 
 let $win = window
 let $doc = document.documentElement  // html
-let $bar = document.querySelector('.progress-bar')
+let $bar = document.querySelector('.bar')
 
+/* 
+1. Determine references that we need based on "Advanced" 1 and 2 
+*/
 
 // ***** STEPS
 
-// Capture the scroll of the window
-$win.addEventListener('scroll', event => { 
-  
-  // Store the window height
-  let winH = $doc.clientHeight    // the document's parent's height
-
-  // Store the document height
-  let docH = $doc.scrollHeight
-
-  // if documentElement height < window height
-  if ( docH <= winH ) { 
-    // Set the display of the .progress-bar to none
-    $bar.style.display = 'none'
-  }
-  else { 
-    // Set the display of the .progress-bar to block
-    $bar.style.display = 'block'
-  }
-
-  // How much CAN be scrolled?
-  let canBeScrolled = docH - winH
-
-  // How much HAS been scrolled?
-  let hasBeenScrolled = window.scrollY
-
-  // Determine the amount scrolled as a percentage of the total possible
-  let percentScrolled = hasBeenScrolled / canBeScrolled
-
-  // Apply a width to the .progress-bar
-  $bar.style.width = `${percentScrolled * 100}%`
-
-})
+/* 
+2. Write all the steps required to complete "Advanced" 2
+*/
