@@ -8,16 +8,22 @@ let $bar = document.querySelector('.progress-bar')
 // ***** STEPS
 
 // Set the display of the .progress-bar to none
+$bar.style.display = 'none'
 
 // Set the display of the .progress-bar to block
+$bar.style.display = 'block'
 
 // Store the window height
+let winH = $doc.clientHeight    // the document's parent's height
 
 // Store the document height
+let docH = $doc.scrollHeight
 
 // if documentElement height < window height
+if ( docH <= winH ) { console.log('no progress bar needed') }
 
 // ...else...
+else { console.log('i need a progress bar') }
 
 // How much CAN be scrolled?
 
