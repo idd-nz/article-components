@@ -52,8 +52,7 @@ let documentW = $doc.scrollWidth
 2. *Listen* for the `window`'s `scroll` Event, then calculate the percentage that the `window` has scrolled at that point, relative to the total possible amount that can possibly be scrolled
    1. Translate that computed value (a percentage) to the `width` of the `.progress-bar`
 
-
-## Part 2: Scroll progress indicator
+## Part 2: Progress title
 
 ### Prototype (HTML/CSS)
 1. Modify the `.progress-bar` HTML to create an outer `<div>` with class `.bar` and an inner `<div>` with class `.progress`
