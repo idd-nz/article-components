@@ -16,4 +16,5 @@ body {
   left: 0;
   height: 1em;
   width: 50%;
+  display: none;
 }
