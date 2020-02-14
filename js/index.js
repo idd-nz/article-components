@@ -3,10 +3,9 @@
 let $win = window
 let $doc = document.documentElement  // html
 let $bar = document.querySelector('.bar')
-
-/* 
-1. Determine references that we need based on "Advanced" 1 and 2 
-*/
+let $prg = document.querySelector('.progress')
+let $h1  = document.querySelector('.heading')
+let $ttl = document.querySelector('.title')
 
 // ***** STEPS
 
